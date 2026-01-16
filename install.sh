@@ -52,9 +52,10 @@ for util in $(ls bin); do
 done
 
 echo "Linking backgrounds..."
-target="$HOME/Pictures/Backgrounds"
+source_bg="$(realpath Backgrounds)"
+target="$HOME/Pictures"
 mkdir -p "$target"
-ln -sf "$(realpath Backgrounds)" "$target"
-echo "Linked Backgrounds -> $target"
+ln -sf "$source_bg" "$target/Backgrounds"
+echo "Linked $source_bg -> $target/Backgrounds"
 
 echo "Installation complete. Add \$HOME/.local/bin to your PATH."
