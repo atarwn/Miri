@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
 
-wall_dir=$(realpath "$HOME/Pictures/Backgrounds")
-cache_dir=$(realpath "$HOME/.cache/thumbnails/bgselector")
-blur_dir=$(realpath "$HOME/.cache/backgrounds/blurred")
+wall_dir="$HOME/Pictures/Backgrounds"
+cache_dir="$HOME/.cache/thumbnails/bgselector"
+blur_dir="$HOME/.cache/backgrounds/blurred"
 
 mkdir -p "$cache_dir" "$blur_dir"
 
@@ -27,8 +27,8 @@ find "$wall_dir" -type f \( -iname '*.jpg' -o -iname '*.jpeg' -o -iname '*.png' 
     process_image "$img"
 done
 
-inotifywait -m -e create -e moved_to --format '%w/%f' "$wall_dir" | while read -r new_img; do
-    if [[ "$new_img" =~ \.(jpg|jpeg|png|webp)$ ]]; then
-        process_image "$new_img"
-    fi
-done
+#inotifywait -m -e create -e moved_to --format '%w/%f' "$wall_dir" | while read -r new_img; do
+#    if [[ "$new_img" =~ \.(jpg|jpeg|png|webp)$ ]]; then
+#        process_image "$new_img"
+#    fi
+#done
