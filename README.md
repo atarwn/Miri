@@ -41,6 +41,7 @@
 | **swww** | Animated wallpaper daemon (workspace/overview support) |
 | **inotify-tools** | Monitoring filesystem changes in `bgprocessor` |
 | **font-awesome** | Icons for `waybar` and `powermenu`  |
+| **nerd-fonts-symbols-ttf** | Some glyphs that are useful not in font-awesome |
 | **adwaita-fonts** | Standard interface fonts |
 
 # Installation 
