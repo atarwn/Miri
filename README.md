@@ -4,12 +4,12 @@
 
 <div align="center">
   <p>Simple setup for VoidLinux</p>
-  <a href="#-features">Features</a> • 
-  <a href="#-gallery">Gallery</a> • 
-  <a href="#-dependencies">Dependencies</a> • 
-  <a href="#-installation">Installation</a> • 
-  <a href="#-keybinds">Keybinds</a> • 
-  <a href="#-credits">Credits</a>
+  <a href="#features">Features</a> • 
+  <a href="#gallery">Gallery</a> • 
+  <a href="#dependencies">Dependencies</a> • 
+  <a href="#installation">Installation</a> • 
+  <a href="#keybinds">Keybinds</a> • 
+  <a href="#credits">Credits</a>
 </div>
 
 ---
