@@ -29,7 +29,7 @@
 
     "network": {
         "format-wifi": "",
-        "format-ethernet": "󰈀",
+        "format-ethernet": "",
         "format-disconnected": "",
         "tooltip-format": "{ifname}: {ipaddr}/{cidr}"
     },
