@@ -61,6 +61,8 @@ Here's only keybinds that are different from default Niri
 |Mod+Comma|Workspace up|
 |Ctrl+Alt+Del|Exit niri|
 
+---
+
 # Credits
 
 * [@kianblakley](https://github.com/kianblakley) and his [niri-land](https://github.com/kianblakley/niri-land) for sources
