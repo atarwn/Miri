@@ -26,7 +26,7 @@ else
     exit 1
 fi
 
-deps="niri mako rofi waybar pipewire wireplumber dbus ImageMagick fyi \
+deps="niri mako rofi Waybar pipewire wireplumber dbus ImageMagick fyi \
       font-awesome adwaita-fonts inotify-tools ffmpeg swww brightnessctl"
 
 echo "Updating system and installing dependencies via $priv_esc..."
