@@ -27,7 +27,7 @@ else
 fi
 
 deps="niri mako rofi Waybar pipewire wireplumber dbus ImageMagick fyi \
-      font-awesome adwaita-fonts inotify-tools ffmpeg swww brightnessctl"
+      font-awesome6 adwaita-fonts inotify-tools ffmpeg swww brightnessctl"
 
 echo "Updating system and installing dependencies via $priv_esc..."
 $priv_esc xbps-install -Suy $deps
