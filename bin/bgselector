@@ -1,0 +1,17 @@
+#!/usr/bin/env bash
+
+wall_dir="$HOME/Pictures/Backgrounds"
+cache_dir="$HOME/.cache/thumbnails/bgselector"
+blur_dir="$HOME/.cache/backgrounds/blurred"
+
+selected=$(ls "$wall_dir" | while read -r img; do 
+    echo -en "$img\x00icon\x1f$cache_dir/$img\n" 
+done | rofi -dmenu -config "$HOME/.config/rofi/bgselector.rasi")
+
+[ -z "$selected" ] && exit 0
+
+original="$wall_dir/$selected"
+blurred="$blur_dir/$selected"
+
+swww img "$original" --namespace "workspace"
+swww img "$blurred" --namespace "overview"
