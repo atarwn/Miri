@@ -2,7 +2,7 @@
 
 set -e
 
-if [ $(lsb_release -is) -ne "VoidLinux" ]; then
+if [[ $(lsb_release -is) != "VoidLinux" ]]; then
     echo "The setup was created for VoidLinux. It cannot be run on other distributions."
     echo "Please consider manual installation for your distribution."
     exit 1
