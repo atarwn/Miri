@@ -53,7 +53,7 @@ done
 
 echo "Linking backgrounds..."
 target="$HOME/Pictures/Backgrounds"
-mkdir "$target"
+mkdir -p "$target"
 ln -sf "$(realpath Backgrounds)" "$target"
 echo "Linked Backgrounds -> $target"
 
