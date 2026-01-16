@@ -23,7 +23,7 @@ process_image() {
     fi
 }
 
-find "$wall_dir" -type f \( -iname '*.jpg' -o -iname '*.jpeg' -o -iname '*.png' -o -iname '*.webp' \) | while read -r img; do
+find "$wall_dir"/ -type f \( -iname '*.jpg' -o -iname '*.jpeg' -o -iname '*.png' -o -iname '*.webp' \) | while read -r img; do
     process_image "$img"
 done
 
