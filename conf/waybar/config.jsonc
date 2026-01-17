@@ -31,7 +31,7 @@
         "format-wifi": "",
         "format-ethernet": "",
         "format-disconnected": "",
-        "tooltip-format": "{ifname}: {ipaddr}/{cidr}"
+        "tooltip-format": "{essid}: {ipaddr}/{cidr}"
     },
 
     "pulseaudio": {
@@ -59,7 +59,7 @@
         "format": "{icon}",
         "format-charging": "",
         "format-plugged": "",
-        "format-alt": "{icon} {time}",
+        "format-alt": "{icon} {capacity}%",
         "format-icons": ["", "", "", "", ""],
         "tooltip-format": "{timeTo}, {capacity}%"
     }
