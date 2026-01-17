@@ -1,5 +1,7 @@
 #!/usr/bin/env bash
 
+transition_type="wave"
+
 wall_dir="$HOME/Pictures/Backgrounds"
 cache_dir="$HOME/.cache/thumbnails/bgselector"
 blur_dir="$HOME/.cache/backgrounds/blurred"
@@ -13,5 +15,5 @@ done | rofi -dmenu -config "$HOME/.config/rofi/bgselector.rasi")
 original="$wall_dir/$selected"
 blurred="$blur_dir/$selected"
 
-swww img "$original" --namespace "workspace"
-swww img "$blurred" --namespace "overview"
+swww img "$original" --namespace "workspace" -t $transition_type
+swww img "$blurred" --namespace "overview" -t $transition_type
