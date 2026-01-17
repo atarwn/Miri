@@ -90,13 +90,14 @@ binds {
     Mod+B hotkey-overlay-title="Select background" { spawn "~/.local/bin/bgselector"; }
     Mod+L hotkey-overlay-title="Open power menu" { spawn "~/.local/bin/powermenu"; }
 
-    XF86AudioRaiseVolume allow-when-locked=true { spawn-sh "wpctl set-volume @DEFAULT_AUDIO_SINK@ 0.1+"; }
-    XF86AudioLowerVolume allow-when-locked=true { spawn-sh "wpctl set-volume @DEFAULT_AUDIO_SINK@ 0.1-"; }
-    XF86AudioMute        allow-when-locked=true { spawn-sh "wpctl set-mute @DEFAULT_AUDIO_SINK@ toggle"; }
-    XF86AudioMicMute     allow-when-locked=true { spawn-sh "wpctl set-mute @DEFAULT_AUDIO_SOURCE@ toggle"; }
-    XF86MonBrightnessUp allow-when-locked=true { spawn "brightnessctl" "--class=backlight" "set" "+10%"; }
-    XF86MonBrightnessDown allow-when-locked=true { spawn "brightnessctl" "--class=backlight" "set" "10%-"; }
-    
+    XF86AudioRaiseVolume allow-when-locked=true { spawn "~/.local/bin/volumeosd" "up"; }
+    XF86AudioLowerVolume allow-when-locked=true { spawn "~/.local/bin/volumeosd" "down"; }
+    XF86AudioMute        allow-when-locked=true { spawn "~/.local/bin/volumeosd" "mute"; }
+    XF86MonBrightnessUp   allow-when-locked=true { spawn "~/.local/bin/brightnessosd" "up"; }
+    XF86MonBrightnessDown allow-when-locked=true { spawn "~/.local/bin/brightnessosd" "down"; }
+
+    // XF86AudioMicMute     allow-when-locked=true { spawn-sh "wpctl set-mute @DEFAULT_AUDIO_SOURCE@ toggle"; }
+
     // XF86AudioPlay        allow-when-locked=true { spawn-sh "playerctl play-pause"; }
     // XF86AudioStop        allow-when-locked=true { spawn-sh "playerctl stop"; }
     // XF86AudioPrev        allow-when-locked=true { spawn-sh "playerctl previous"; }

@@ -1,0 +1,16 @@
+#!/usr/bin/env bash
+
+step=1%
+
+case "$1" in
+    up)
+        brightnessctl set "${step}+"
+        ;;
+    down)
+        brightnessctl set "${step}-"
+        ;;
+esac
+
+bright_value=$(brightnessctl info | grep -oP '\(\K[^%]+(?=%\))')
+
+fyi -a "brightness" -H int:value:"$bright_value" ""

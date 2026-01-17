@@ -34,6 +34,21 @@ padding=1
 layer=overlay
 default-timeout=1000
 
+[app-name=brightness]
+anchor=bottom-center
+group-by=app-name
+format=<b>%s</b>\n%b
+width=200
+border-size=28
+border-radius=14
+border-color=#000000e6
+background-color=#323232ff
+progress-color=source #ffffffff
+outer-margin=0,0,20,0
+padding=1
+layer=overlay
+default-timeout=1000
+
 [anchor=bottom-center]
 max-visible=1
 

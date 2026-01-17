@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-step=0.01
+step=0.05
 
 case "$1" in
     up)

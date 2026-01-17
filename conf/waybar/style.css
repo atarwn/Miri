@@ -12,13 +12,6 @@ window#waybar {
     transition-duration: .5s;
 }
 
-#custom-launcher {
-    color: #ffffff;
-    padding: 0 10px;
-    margin: 0 5px;
-    font-size: 16px;
-}
-
 *:hover {
     box-shadow: inherit;
     text-shadow: inherit;
@@ -45,10 +38,11 @@ window#waybar {
     margin: 10px 2px;
 }
 
-#network, #pulseaudio, #backlight, #battery, #clock {
+#network, #pulseaudio, #backlight, #battery, #clock,
+#custom-launcher, #custom-powermenu{
+    color: #ffffff;
+    padding: 0 10px;
     font-size: 16px;
-    padding: 0 8px;
-    margin: 0 0px;
 }
 
 #clock {
