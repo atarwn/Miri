@@ -7,11 +7,11 @@
     "modules-center": ["clock"],
     "modules-right": ["network", "pulseaudio", "backlight", "battery"],
 
-    "custom/launcher": {
+    /*"custom/launcher": {
         "format": "",
         "on-click": "~/.local/bin/appdrawer",
 	"tooltip": false
-    },
+    },*/
 
     "niri/workspaces": {
         "format": "{icon}",
