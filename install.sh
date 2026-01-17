@@ -28,7 +28,7 @@ fi
 
 deps="niri mako rofi Waybar pipewire wireplumber dbus ImageMagick fyi \
       font-awesome6 adwaita-fonts inotify-tools ffmpeg swww brightnessctl \
-      nerd-fonts-symbols-ttf elogind dbus"
+      nerd-fonts-symbols-ttf elogind dbus git"
 
 echo "Updating system and installing dependencies via $priv_esc..."
 $priv_esc xbps-install -Suy $deps
