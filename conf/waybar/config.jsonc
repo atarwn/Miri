@@ -9,7 +9,7 @@
 
     "custom/launcher": {
         "format": "",
-        "on-click": "nwggrid",
+        "on-click": "~/.local/bin/appdrawer",
 	"tooltip": false
     },
 

@@ -56,7 +56,7 @@ echo "Linking backgrounds..."
 source_bg="$(realpath Backgrounds)"
 target="$HOME/Pictures"
 mkdir -p "$target"
-ln -sf "$source_bg" "$target/Backgrounds"
+ln -sf "$source_bg" "$target"
 echo "Linked $source_bg -> $target/Backgrounds"
 
 echo "Installation complete. Add \$HOME/.local/bin to your PATH."
