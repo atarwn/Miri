@@ -25,6 +25,12 @@
 >[!NOTE]
 >To be done soon
 
+![assets/Screenshot from 2026-01-18 07-12-28.png](Workspace)
+![assets/Screenshot from 2026-01-18 07-12-45.png](App Drawer)
+![assets/Screenshot from 2026-01-18 07-13-00.png](Background Selection)
+![assets/Screenshot from 2026-01-18 07-13-12.png](Power Menu)
+![assets/Screenshot from 2026-01-18 07-13-28.png](Overview blur)
+
 # Dependencies
 | Dependency | What's for |
 | :--- | :--- |
@@ -45,6 +51,12 @@
 | **font-awesome6** | Icons for `waybar` and `powermenu`  |
 | **nerd-fonts-symbols-ttf** | Some glyphs that are useful but not in font-awesome |
 | **adwaita-fonts** | Standard interface fonts |
+| **git** | Installation |
+| **xwayland-satellite** | X11 and dbus support |
+| **glibc-locales** | Rofi refuses to start and this shit is just needed for many programs |
+
+>[!TIP]
+>Locales are stored in /etc/default/libc-locales
 
 # Installation 
 ```

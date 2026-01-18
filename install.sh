@@ -28,7 +28,7 @@ fi
 
 deps="niri mako rofi Waybar pipewire wireplumber dbus ImageMagick fyi \
       font-awesome6 adwaita-fonts inotify-tools ffmpeg swww brightnessctl \
-      nerd-fonts-symbols-ttf elogind dbus git"
+      nerd-fonts-symbols-ttf elogind dbus git xwayland-satellite glibc-locales"
 
 echo "Updating system and installing dependencies via $priv_esc..."
 $priv_esc xbps-install -Suy $deps
@@ -60,4 +60,5 @@ ln -sf "$source_bg" "$target"
 echo "Linked $source_bg -> $target/Backgrounds"
 
 echo "Installation complete. Add \$HOME/.local/bin to your PATH."
-echo "Don't foget to enable dbus service and reboot your pc (if not enabled already)"
+echo "Don't foget to enable dbus service (if not enabled already) and reboot your pc"
+# Why should you reboot your pc? I dunno man,
