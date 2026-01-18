@@ -25,10 +25,14 @@
 >[!NOTE]
 >To be done soon
 
-![assets/Screenshot from 2026-01-18 07-12-28.png](Workspace)  
-![assets/Screenshot from 2026-01-18 07-12-45.png](App Drawer)  
-![assets/Screenshot from 2026-01-18 07-13-00.png](Background Selection)  
-![assets/Screenshot from 2026-01-18 07-13-12.png](Power Menu)  
+![assets/Screenshot from 2026-01-18 07-12-28.png](Workspace)
+
+![assets/Screenshot from 2026-01-18 07-12-45.png](App Drawer)
+
+![assets/Screenshot from 2026-01-18 07-13-00.png](Background Selection)
+
+![assets/Screenshot from 2026-01-18 07-13-12.png](Power Menu)
+
 ![assets/Screenshot from 2026-01-18 07-13-28.png](Overview blur)
 
 # Dependencies
