@@ -40,6 +40,11 @@ layer-rule {
     place-within-backdrop false
 }
 
+cursor {
+    hide-when-typing
+    hide-after-inactive-ms 3000
+}
+
 environment {
     ELECTRON_OZONE_PLATFORM_HINT "wayland"
     // all_proxy "127.0.0.1:1080"

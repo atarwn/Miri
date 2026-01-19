@@ -8,7 +8,7 @@
     "modules-right": ["network", "pulseaudio", "backlight", "battery", "custom/powermenu"],
 
     "custom/launcher": {
-        "format": "",
+        "format": "",
         "on-click": "~/.local/bin/appdrawer",
 	"tooltip": false
     },
