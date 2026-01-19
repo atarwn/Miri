@@ -15,5 +15,5 @@ done | rofi -dmenu -config "$HOME/.config/rofi/bgselector.rasi")
 original="$wall_dir/$selected"
 blurred="$blur_dir/$selected"
 
-swww img "$original" --namespace "workspace" -t $transition_type
-swww img "$blurred" --namespace "overview" -t $transition_type
+swww img "$original" --namespace "workspace" -t $transition_type --transition-fps 120
+swww img "$blurred" --namespace "overview" -t $transition_type --transition-fps 120
