@@ -32,6 +32,7 @@
 | Dependency | What's for |
 | :--- | :--- |
 | **niri** | Window Manager |
+| **mesa** | Some kind of graphics library, required for niri to make output (tested on AMD iGPU and Intel iGPU |
 | **elogind** | Required for Niri and many other things |
 | **dbus** | Required for elogind and many other things |
 | **mako** | Notification daemon |
