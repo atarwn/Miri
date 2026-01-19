@@ -43,9 +43,11 @@
     "pulseaudio": {
         "format": "{icon}",
         "format-alt": "{icon} {volume}%",
-        "format-muted": "",
         "format-icons": {
-            "default": ["", "", ""]
+            "default": ["", "", ""],
+	    "default-muted": "",
+	    "headphone": "",
+	    "headset": ""
         }
     },
 
