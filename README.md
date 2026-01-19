@@ -22,18 +22,11 @@
 
 # Gallery
 
->[!NOTE]
->To be done soon
-
-![assets/Screenshot from 2026-01-18 07-12-28.png](Workspace)
-
-![assets/Screenshot from 2026-01-18 07-12-45.png](App Drawer)
-
-![assets/Screenshot from 2026-01-18 07-13-00.png](Background Selection)
-
-![assets/Screenshot from 2026-01-18 07-13-12.png](Power Menu)
-
-![assets/Screenshot from 2026-01-18 07-13-28.png](Overview blur)
+![Workspace](https://github.com/atarwn/Miri/blob/main/assets/Screenshot%20from%202026-01-18%2007-12-28.png?raw=true)
+![Overview Blur](https://github.com/atarwn/Miri/blob/main/assets/Screenshot%20from%202026-01-18%2007-13-28.png?raw=true)
+![Application Drawer](https://github.com/atarwn/Miri/blob/main/assets/Screenshot%20from%202026-01-18%2007-12-45.png?raw=true)
+![Background Selector](https://github.com/atarwn/Miri/blob/main/assets/Screenshot%20from%202026-01-18%2007-13-00.png?raw=true)
+![Power Menu](https://github.com/atarwn/Miri/blob/main/assets/Screenshot%20from%202026-01-18%2007-13-12.png?raw=true)
 
 # Dependencies
 | Dependency | What's for |
@@ -57,7 +50,7 @@
 | **adwaita-fonts** | Standard interface fonts |
 | **git** | Installation |
 | **xwayland-satellite** | X11 and dbus support |
-| **glibc-locales** | Rofi refuses to start and this shit is just needed for many programs |
+| **glibc-locales** | Rofi refuses to start and this shit is just needed for many other programs |
 
 >[!TIP]
 >Locales are stored in /etc/default/libc-locales
