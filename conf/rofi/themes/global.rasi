@@ -1,0 +1,19 @@
+/* global.rasi */
+* {
+    background-color: transparent;
+    text-color: rgba(255, 255, 255, 1); 
+    selected-bg: rgba(32, 32, 32, 0.85); 
+}
+
+window {
+    fullscreen: true; 
+    background-color: rgba(0, 0, 0, 0.9); 
+}
+
+element {
+    border-radius: 5px; 
+}
+
+element.selected {
+    background-color: @selected-bg; 
+}
