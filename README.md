@@ -77,5 +77,5 @@ Here's only keybinds that are different from default Niri
 
 # Credits
 
-* [@kianblakley](https://github.com/kianblakley) and his [niri-land](https://github.com/kianblakley/niri-land) for sources
+* [@kianblakley](https://github.com/kianblakley) and his [niri-land](https://github.com/kianblakley/niri-land) for rofi and mako configurations
 * Unknown authors from unsplash for their wallpapers i randomly got from [lipsum.app](https://lipsum.app)
