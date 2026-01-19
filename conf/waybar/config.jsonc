@@ -6,13 +6,13 @@
     "modules-left": ["custom/launcher", "niri/workspaces"],
     "modules-center": ["clock"],
     "modules-right": ["network", "pulseaudio", "backlight", "battery", "custom/powermenu"],
-
-    "custom/launcher": {
+/*
+      "custom/launcher": {
         "format": "",
         "on-click": "~/.local/bin/appdrawer",
 	"tooltip": false
     },
-
+*/
     "custom/powermenu": {
         "format": "",
         "on-click": "~/.local/bin/powermenu",
