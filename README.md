@@ -80,3 +80,5 @@ Here's only keybinds that are different from default Niri
 
 * [@kianblakley](https://github.com/kianblakley) and his [niri-land](https://github.com/kianblakley/niri-land) for rofi and mako configurations
 * Unknown authors from unsplash for their wallpapers i randomly got from [lipsum.app](https://lipsum.app)
+
+> p.s. if you think that the keybinds are strange you'll be absolutely right
