@@ -2,3 +2,5 @@
 size = 16
 normal = { family = "Adwaita Mono" }
 
+[window]
+dynamic_padding = true

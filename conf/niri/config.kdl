@@ -57,6 +57,12 @@ environment {
 
 spawn-sh-at-startup "runsvdir \"$HOME/.config/runsvdir\""
 
+gestures {
+    hot-corners {
+	off
+    }
+}
+
 hotkey-overlay {
     skip-at-startup
 }
